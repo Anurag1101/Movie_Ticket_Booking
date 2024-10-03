@@ -5,10 +5,15 @@ This is a simple Python program that simulates the process of booking movie tick
 **Features**
 
 i. **Movie Selection:** Choose from a list of available movies.
+
 ii. **Show Timings:** Select from multiple time slots (morning, afternoon, evening, and night).
+
 iii. **Ticket Booking:** Enter the number of tickets, and the system assigns random, consecutive seat numbers.
+
 iv. **Seat Allocation:** Seats are allocated with both row letters and seat numbers.
+
 v. **Fare Calculation:** Includes the ticket price and taxes.
+
 vi. **Booking ID Generation:** A unique 8-character alphanumeric booking ID is generated for each booking.
 
 **How to Run the Program
