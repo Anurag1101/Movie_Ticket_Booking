@@ -21,15 +21,15 @@ Prerequisites:**
 
 Make sure you have Python installed on your system. You can download it from python.org.
 
-Clone the Repository: git clone https://github.com/Anurag1101/Movie_Ticket.git
+**Clone the Repository:** git clone https://github.com/Anurag1101/Movie_Ticket.git
 
-Navigate to the Project Directory: cd Movie_Ticket
+**Navigate to the Project Directory:** cd Movie_Ticket
 
-Run the Program: Run the Python file to start booking tickets: python movie_ticket_booking.py
+**Run the Program:** Run the Python file to start booking tickets: python movie_ticket_booking.py
 
-How the Program Works
+**How the Program Works:**
 
-Welcome Screen: The program displays a welcome message from PVR Cinemas and lists the available movies (Joker 2, Venom 3, Bhool Bhulaiyaa 3, Singham Again).
+**Welcome Screen:** The program displays a welcome message from PVR Cinemas and lists the available movies (Joker 2, Venom 3, Bhool Bhulaiyaa 3, Singham Again).
 
 **Input:**
 
@@ -43,7 +43,7 @@ Users enter the number of tickets they wish to book.
 
 Based on the user's input, the system confirms the movie, show time, and allocates random, consecutive seat numbers in one of the auditoriums.
 
-Example of seat allocation: AUDI 5, Seat Numbers: A1, A2, A3.
+**Example of seat allocation:** AUDI 5, Seat Numbers: A1, A2, A3.
 
 **Fare Calculation:** Each ticket costs ₹300, with an additional tax of ₹31 per ticket.
 The total fare is displayed to the user, including taxes.
@@ -52,9 +52,9 @@ The total fare is displayed to the user, including taxes.
 
 **Example Interaction**:
 
-Welcome to PVR Cinemas
+**Welcome to PVR Cinemas**
 
-Available Movies are: Joker 2, Venom 3, Bhool Bhulaiyaa 3, and Singham Again
+**Available Movies are:**  Joker 2, Venom 3, Bhool Bhulaiyaa 3, and Singham Again
 
 **4 Shows are available:**
 
@@ -66,17 +66,17 @@ Available Movies are: Joker 2, Venom 3, Bhool Bhulaiyaa 3, and Singham Again
  
  Input **'Night'** for Night Show (9:00 P.M.).
 
-Enter Your Movie Choice: Joker 2
+**Enter Your Movie Choice:**  Joker 2
 
-Enter Your Show Timing: Evening
+**Enter Your Show Timing:**  Evening
 
-Enter the number of tickets: 3
+**Enter the number of tickets:**  3
 
 **BOOKING CONFIRMED!** You have booked 3 tickets for Joker 2, 5:00 P.M.
 
-Your Confirmed seats are in AUDI 5, Seat Numbers: A1, A2, A3
+Your Confirmed seats are in **AUDI 5, Seat Numbers: A1, A2, A3**
 
-Total price including taxes is ₹993
+Total price including taxes is **₹993**
 
 **Booking ID:** XJ4K8G7W
 
