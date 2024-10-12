@@ -72,17 +72,17 @@ The total fare is displayed to the user, including taxes.
 
     Enter Your Movie Choice:  Joker 2
 
-    **Enter Your Show Timing:**  Evening
+    Enter Your Show Timing:  Evening
 
-    **Enter the number of tickets:**  3
+    Enter the number of tickets:  3
 
-    **BOOKING CONFIRMED!** You have booked 3 tickets for Joker 2, 5:00 P.M.
+    BOOKING CONFIRMED! You have booked 3 tickets for Joker 2, 5:00 P.M.
 
-    Your Confirmed seats are in **AUDI 5, Seat Numbers: A1, A2, A3**
+    Your Confirmed seats are in AUDI 5, Seat Numbers: A1, A2, A3
 
-    Total price including taxes is **₹993**
+    Total price including taxes is ₹993
 
-    **Booking ID:** XJ4K8G7W
+    Booking ID: XJ4K8G7W
 
 **Future Enhancements**:
 
