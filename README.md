@@ -17,6 +17,7 @@ v. **Fare Calculation:** Includes the ticket price and taxes.
 vi. **Booking ID Generation:** A unique 8-character alphanumeric booking ID is generated for each booking.
 
 **How to Run the Program
+
 Prerequisites:**
 
 Make sure you have Python installed on your system. You can download it from python.org.
@@ -29,7 +30,9 @@ Make sure you have Python installed on your system. You can download it from pyt
 
 **How the Program Works:**
 
-**Welcome Screen:** The program displays a welcome message from PVR Cinemas and lists the available movies (Joker 2, Venom 3, Bhool Bhulaiyaa 3, Singham Again).
+**Welcome Screen:** 
+
+The program displays a welcome message from PVR Cinemas and lists the available movies (Joker 2, Venom 3, Bhool Bhulaiyaa 3, Singham Again).
 
 **Input:**
 
