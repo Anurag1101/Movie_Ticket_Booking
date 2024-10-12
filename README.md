@@ -16,9 +16,9 @@ v. **Fare Calculation:** Includes the ticket price and taxes.
 
 vi. **Booking ID Generation:** A unique 8-character alphanumeric booking ID is generated for each booking.
 
-**How to Run the Program
+How to Run the Program
 
-Prerequisites:**
+Prerequisites:
 
 Make sure you have Python installed on your system. You can download it from python.org.
 
@@ -61,15 +61,15 @@ The total fare is displayed to the user, including taxes.
 
     **4 Shows are available:**
 
-    Input **'Morning'** for Morning Show (9:00 A.M.),
+    Input 'Morning' for Morning Show (9:00 A.M.),
  
-    Input **'Afternoon'** for Afternoon Show (1:00 P.M.),
+    Input 'Afternoon' for Afternoon Show (1:00 P.M.),
  
-    Input **'Evening'** for Evening Show (5:00 P.M.),
+    Input 'Evening' for Evening Show (5:00 P.M.),
  
-    Input **'Night'** for Night Show (9:00 P.M.).
+    Input 'Night' for Night Show (9:00 P.M.).
 
-    **Enter Your Movie Choice:**  Joker 2
+    Enter Your Movie Choice:  Joker 2
 
     **Enter Your Show Timing:**  Evening
 
