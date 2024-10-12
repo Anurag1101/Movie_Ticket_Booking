@@ -22,11 +22,11 @@ Prerequisites:
 
 Make sure you have Python installed on your system. You can download it from python.org.
 
-    **Clone the Repository:** git clone https://github.com/Anurag1101/Movie_Ticket.git
+    Clone the Repository: git clone https://github.com/Anurag1101/Movie_Ticket.git
 
-    **Navigate to the Project Directory:** cd Movie_Ticket
+    Navigate to the Project Directory: cd Movie_Ticket
 
-    **Run the Program:** Run the Python file to start booking tickets: python movie_ticket_booking.py
+    Run the Program: Run the Python file to start booking tickets: python movie_ticket_booking.py
 
 **How the Program Works:**
 
@@ -49,13 +49,14 @@ Based on the user's input, the system confirms the movie, show time, and allocat
 **Example of seat allocation:** AUDI 5, Seat Numbers: A1, A2, A3.
 
 **Fare Calculation:** Each ticket costs ₹300, with an additional tax of ₹31 per ticket.
+
 The total fare is displayed to the user, including taxes.
 
 **Booking ID:** A unique 8-character booking ID is generated, consisting of random letters and numbers.
 
 **Example Interaction**:
 
-    **Welcome to PVR Cinemas**
+    Welcome to PVR Cinemas
 
     **Available Movies are:**  Joker 2, Venom 3, Bhool Bhulaiyaa 3, and Singham Again
 
