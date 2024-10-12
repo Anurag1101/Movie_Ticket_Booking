@@ -58,9 +58,9 @@ The total fare is displayed to the user, including taxes.
 
     Welcome to PVR Cinemas
 
-    **Available Movies are:**  Joker 2, Venom 3, Bhool Bhulaiyaa 3, and Singham Again
+    Available Movies are:  Joker 2, Venom 3, Bhool Bhulaiyaa 3, and Singham Again
 
-    **4 Shows are available:**
+    4 Shows are available:
 
     Input 'Morning' for Morning Show (9:00 A.M.),
  
