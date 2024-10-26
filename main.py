@@ -20,20 +20,20 @@ class Movie:
 
 
         elif self.time_slot == "afternoon":
-            print(f"\nBOOKING CONFIRMED! You have booked {self.number} tickets for {self.movie_choice.title()}, 9:00 A.M.")
+            print(f"\nBOOKING CONFIRMED! You have booked {self.number} tickets for {self.movie_choice.title()}, 1:00 P.M.")
             start_seat = random.randint(1, 20 - self.number + 1)
             seat_numbers = [start_seat + i for i in range(self.number)]
             row_letter = random.choices(['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M'], k=1)[0]
             print(f"Your Confirmed seats are in AUDI {random.randint(1,10)}, Seat Numbers: {','.join([f'{row_letter}{seat}' for seat in seat_numbers])}\n")
 
         elif self.time_slot == "evening":
-            print(f"\nBOOKING CONFIRMED! You have booked {self.number} tickets for {self.movie_choice.title()}, 9:00 A.M.")
+            print(f"\nBOOKING CONFIRMED! You have booked {self.number} tickets for {self.movie_choice.title()}, 5:00 P.M.")
             start_seat = random.randint(1, 20 - self.number + 1)
             seat_numbers = [start_seat + i for i in range(self.number)]
             row_letter = random.choices(['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M'], k=1)[0]
             print(f"Your Confirmed seats are in AUDI {random.randint(1,10)}, Seat Numbers: {','.join([f'{row_letter}{seat}' for seat in seat_numbers])}\n")
         else:
-            print(f"\nBOOKING CONFIRMED! You have booked {self.number} tickets for {self.movie_choice.title()}, 9:00 A.M.")
+            print(f"\nBOOKING CONFIRMED! You have booked {self.number} tickets for {self.movie_choice.title()}, 9:00 P.M.")
             start_seat = random.randint(1, 20 - self.number + 1)
             seat_numbers = [start_seat + i for i in range(self.number)]
             row_letter = random.choices(['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M'], k=1)[0]
