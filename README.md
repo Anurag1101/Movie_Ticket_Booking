@@ -3,15 +3,24 @@
 Welcome to the **Movie Ticket Booking System!** This `Python` application allows users to book movie tickets at `PVR` Cinemas by choosing a movie, selecting a show time, and specifying the number of tickets. The application provides a simple, interactive booking experience with seat allocation, fare calculation, and booking confirmation.
 
 
-Table of Contents
-Features
-Getting Started
-Usage
-Code Structure
-Example Workflow
-Dependencies
-Contributing
-License
+## Table of Contents:
+
+- Features
+
+- Getting Started
+
+- Usage
+
+- Code Structure
+
+- Example Workflow
+
+- Dependencies
+
+- Contributing
+
+- License
+
 Features
 Movie Selection: Choose from a list of available movies.
 Show Timing Selection: Select a preferred show time (Morning, Afternoon, Evening, or Night).
