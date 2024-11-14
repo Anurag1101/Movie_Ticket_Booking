@@ -113,13 +113,15 @@ No external libraries are required; only Python's standard library is used:
 - `string`: For generating a random booking ID.
 
 
-Contributing
+## Contributions:
+
 If you'd like to contribute to this project:
 
-Fork the repository.
-Create a feature branch.
-Commit your changes.
-Push to the branch.
-Open a pull request.
+1. Fork the repository.
+2. Create a feature branch.
+3. Commit your changes.
+4. Push to the branch.
+5. Open a pull request.
+
 License
 This project is licensed under the MIT License.
