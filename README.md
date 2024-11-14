@@ -48,12 +48,11 @@ To use this project:
 Upon running the script, users will be prompted to enter the following details:
 
 1. **Movie Choice:** Choose from the available movies:
-   - Joker 2
+   - **Joker 2**
+   - **Venom 3**
+   - **Bhool Bhulaiyaa 3**
+   - **Singham Again**
 
-Joker 2
-Venom 3
-Bhool Bhulaiyaa 3
-Singham Again
 Show Time: Enter one of the following time slots:
 
 Morning (9:00 A.M.)
