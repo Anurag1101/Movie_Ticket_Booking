@@ -123,5 +123,6 @@ If you'd like to contribute to this project:
 4. Push to the branch.
 5. Open a pull request.
 
-License
-This project is licensed under the MIT License.
+## License:
+
+This project is licensed under the `MIT` License.
