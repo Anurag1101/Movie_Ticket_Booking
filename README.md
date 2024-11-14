@@ -5,21 +5,21 @@ Welcome to the **Movie Ticket Booking System!** This `Python` application allows
 
 ## Table of Contents:
 
-- Features
+- ### Features
 
-- Getting Started
+- ### Getting Started
 
-- Usage
+- ### Usage
 
-- Code Structure
+- ### Code Structure
 
-- Example Workflow
+- ### Example Workflow
 
-- Dependencies
+- ### Dependencies
 
-- Contributing
+- ### Contributing
 
-- License
+- ### License
 
 Features
 Movie Selection: Choose from a list of available movies.
