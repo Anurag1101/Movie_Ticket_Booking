@@ -21,13 +21,15 @@ Welcome to the **Movie Ticket Booking System!** This `Python` application allows
 
 - ### License
 
-Features
-Movie Selection: Choose from a list of available movies.
-Show Timing Selection: Select a preferred show time (Morning, Afternoon, Evening, or Night).
-Seat Allocation: Generates consecutive seat numbers with a random row letter.
-Fare Calculation: Calculates total fare with taxes.
-Booking ID Generation: Generates a unique booking ID for each transaction.
-Input Validation: Ensures correct movie selection, show time, and ticket quantity.
+## Features:
+
+- Movie Selection: Choose from a list of available movies.
+- Show Timing Selection: Select a preferred show time (Morning, Afternoon, Evening, or Night).
+- Seat Allocation: Generates consecutive seat numbers with a random row letter.
+- Fare Calculation: Calculates total fare with taxes.
+- Booking ID Generation: Generates a unique booking ID for each transaction.
+- Input Validation: Ensures correct movie selection, show time, and ticket quantity.
+
 Getting Started
 To use this project:
 
