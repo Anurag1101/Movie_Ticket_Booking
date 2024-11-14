@@ -69,18 +69,20 @@ Upon running the script, users will be prompted to enter the following details:
    - Generate and display a unique booking ID.
 
 
+## Code Structure:
 
-
-
-Code Structure
 The main components of this program include:
 
-Class Movie: Handles the booking process, seat allocation, fare calculation, and validation.
+1. **Class Movie:**  Handles the booking process, seat allocation, fare calculation, and validation.
+   - `__init__`: Initializes the movie choice, show time, and ticket number with validation.
+   - `generate_seat_numbers`: Allocates consecutive seats and a row letter.
+   - `book`: Confirms booking details and seat allocation.
+   - `fare`: Calculates total fare and generates a booking ID.
 
-__init__: Initializes the movie choice, show time, and ticket number with validation.
-generate_seat_numbers: Allocates consecutive seats and a row letter.
-book: Confirms booking details and seat allocation.
-fare: Calculates total fare and generates a booking ID.
+
+
+
+
 Main Program Flow:
 
 Prompts the user for inputs, validates them, and initiates the booking process.
