@@ -60,14 +60,18 @@ Upon running the script, users will be prompted to enter the following details:
    - **Night (9:00 P.M.)**
 
 
-Number of Tickets: Enter a number between 1 and 20.
+3. **Number of Tickets:**  Enter a number between 1 and 20.
 
-Based on the inputs, the application will:
+4. Based on the inputs, the application will:
+   - Confirm the booking with the chosen movie, time, and number of tickets.
+   - Display seat numbers and AUDI allocation.
+   - Show the total price including taxes.
+   - Generate and display a unique booking ID.
 
-Confirm the booking with the chosen movie, time, and number of tickets.
-Display seat numbers and AUDI allocation.
-Show the total price including taxes.
-Generate and display a unique booking ID.
+
+
+
+
 Code Structure
 The main components of this program include:
 
