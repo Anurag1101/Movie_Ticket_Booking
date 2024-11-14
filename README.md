@@ -1,103 +1,105 @@
-## Movie Ticket Booking System
+Movie Ticket Booking System
+Welcome to the Movie Ticket Booking System! This Python application allows users to book movie tickets at PVR Cinemas by choosing a movie, selecting a show time, and specifying the number of tickets. The application provides a simple, interactive booking experience with seat allocation, fare calculation, and booking confirmation.
 
-This is a simple Python program that simulates the process of booking movie tickets. It allows users to select a movie, choose a time slot, specify the number of tickets, and receive seat allocations and a fare summary. The program also generates a unique booking ID for each transaction.
+Table of Contents
+Features
+Getting Started
+Usage
+Code Structure
+Example Workflow
+Dependencies
+Contributing
+License
+Features
+Movie Selection: Choose from a list of available movies.
+Show Timing Selection: Select a preferred show time (Morning, Afternoon, Evening, or Night).
+Seat Allocation: Generates consecutive seat numbers with a random row letter.
+Fare Calculation: Calculates total fare with taxes.
+Booking ID Generation: Generates a unique booking ID for each transaction.
+Input Validation: Ensures correct movie selection, show time, and ticket quantity.
+Getting Started
+To use this project:
 
-**Features**:
+Clone the Repository:
 
-i. **Movie Selection:** Choose from a list of available movies.
+bash
+Copy code
+git clone https://github.com/yourusername/Movie_Ticket_Booking.git
+cd Movie_Ticket_Booking
+Run the Script: Execute the movie_ticket_booking.py file in your terminal:
 
-ii. **Show Timings:** Select from multiple time slots (morning, afternoon, evening, and night).
+bash
+Copy code
+python movie_ticket_booking.py
+Usage
+Upon running the script, users will be prompted to enter the following details:
 
-iii. **Ticket Booking:** Enter the number of tickets, and the system assigns random, consecutive seat numbers.
+Movie Choice: Choose from the available movies:
 
-iv. **Seat Allocation:** Seats are allocated with both row letters and seat numbers.
+Joker 2
+Venom 3
+Bhool Bhulaiyaa 3
+Singham Again
+Show Time: Enter one of the following time slots:
 
-v. **Fare Calculation:** Includes the ticket price and taxes.
+Morning (9:00 A.M.)
+Afternoon (1:00 P.M.)
+Evening (5:00 P.M.)
+Night (9:00 P.M.)
+Number of Tickets: Enter a number between 1 and 20.
 
-vi. **Booking ID Generation:** A unique 8-character alphanumeric booking ID is generated for each booking.
+Based on the inputs, the application will:
 
-How to Run the Program
+Confirm the booking with the chosen movie, time, and number of tickets.
+Display seat numbers and AUDI allocation.
+Show the total price including taxes.
+Generate and display a unique booking ID.
+Code Structure
+The main components of this program include:
 
-Prerequisites:
+Class Movie: Handles the booking process, seat allocation, fare calculation, and validation.
 
-Make sure you have Python installed on your system. You can download it from python.org.
+__init__: Initializes the movie choice, show time, and ticket number with validation.
+generate_seat_numbers: Allocates consecutive seats and a row letter.
+book: Confirms booking details and seat allocation.
+fare: Calculates total fare and generates a booking ID.
+Main Program Flow:
 
-    Clone the Repository: git clone https://github.com/Anurag1101/Movie_Ticket.git
+Prompts the user for inputs, validates them, and initiates the booking process.
+Example Workflow
+text
+Copy code
+Welcome to PVR Cinemas
 
-    Navigate to the Project Directory: cd Movie_Ticket
+Available Movies: Joker 2, Venom 3, Bhool Bhulaiyaa 3, Singham Again
 
-    Run the Program: Run the Python file to start booking tickets: python movie_ticket_booking.py
+Show Timings:
+  Input 'Morning' for 9:00 A.M. Show
+  Input 'Afternoon' for 1:00 P.M. Show
+  Input 'Evening' for 5:00 P.M. Show
+  Input 'Night' for 9:00 P.M. Show
 
-**How the Program Works:**
+Enter Your Movie Choice: Joker 2
+Enter Your Show Timing: Evening
+Enter the number of tickets: 3
 
-**Welcome Screen:** 
+BOOKING CONFIRMED! You have booked 3 tickets for 'Joker 2' at 5:00 P.M.
+Your confirmed seats are in AUDI 7, Seat Numbers: D12, D13, D14
 
-The program displays a welcome message from PVR Cinemas and lists the available movies (Joker 2, Venom 3, Bhool Bhulaiyaa 3, Singham Again).
+Total price including taxes: ₹993
+Booking ID: X8H2J9K3
+Dependencies
+No external libraries are required; only Python's standard library is used:
 
-**Input:**
+random: For random seat and booking ID generation.
+string: For generating a random booking ID.
+Contributing
+If you'd like to contribute to this project:
 
-Users enter their choice of movie.
-
-Users select the show timing by inputting one of the following: Morning, Afternoon, Evening, or Night.
-
-Users enter the number of tickets they wish to book.
-
-**Booking Confirmation:**
-
-Based on the user's input, the system confirms the movie, show time, and allocates random, consecutive seat numbers in one of the auditoriums.
-
-**Example of seat allocation:** AUDI 5, Seat Numbers: A1, A2, A3.
-
-**Fare Calculation:** Each ticket costs ₹300, with an additional tax of ₹31 per ticket.
-
-The total fare is displayed to the user, including taxes.
-
-**Booking ID:** A unique 8-character booking ID is generated, consisting of random letters and numbers.
-
-**Example Interaction**:
-
-    Welcome to PVR Cinemas
-
-    Available Movies are:  Joker 2, Venom 3, Bhool Bhulaiyaa 3, and Singham Again
-
-    4 Shows are available:
-
-    Input 'Morning' for Morning Show (9:00 A.M.),
- 
-    Input 'Afternoon' for Afternoon Show (1:00 P.M.),
- 
-    Input 'Evening' for Evening Show (5:00 P.M.),
- 
-    Input 'Night' for Night Show (9:00 P.M.).
-
-    Enter Your Movie Choice:  Joker 2
-
-    Enter Your Show Timing:  Evening
-
-    Enter the number of tickets:  3
-
-    BOOKING CONFIRMED! You have booked 3 tickets for Joker 2, 5:00 P.M.
-
-    Your Confirmed seats are in AUDI 5, Seat Numbers: A1, A2, A3
-
-    Total price including taxes is ₹993
-
-    Booking ID: XJ4K8G7W
-
-**Future Enhancements**:
-
-Add more movies and show timings.
-
-Allow for seat selection by the user.
-
-Implement discount codes or special offers.
-
-Integrate with a GUI for a better user experience.
-
-**License**:
-
-This project is licensed under the MIT License - see the LICENSE file for details
-
-
-
-
+Fork the repository.
+Create a feature branch.
+Commit your changes.
+Push to the branch.
+Open a pull request.
+License
+This project is licensed under the MIT License.
