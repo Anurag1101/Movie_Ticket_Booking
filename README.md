@@ -106,11 +106,13 @@ The main components of this program include:
     
 
 
-Dependencies
-No external libraries are required; only Python's standard library is used:
+## Dependencies:
 
-random: For random seat and booking ID generation.
-string: For generating a random booking ID.
+No external libraries are required; only Python's standard library is used:
+- `random`: For random seat and booking ID generation.
+- `string`: For generating a random booking ID.
+
+
 Contributing
 If you'd like to contribute to this project:
 
