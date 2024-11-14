@@ -47,7 +47,8 @@ To use this project:
 
 Upon running the script, users will be prompted to enter the following details:
 
-Movie Choice: Choose from the available movies:
+1. **Movie Choice:** Choose from the available movies:
+   - Joker 2
 
 Joker 2
 Venom 3
