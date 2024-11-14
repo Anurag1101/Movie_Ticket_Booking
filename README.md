@@ -79,35 +79,33 @@ The main components of this program include:
    - `book`: Confirms booking details and seat allocation.
    - `fare`: Calculates total fare and generates a booking ID.
 
+2. **Main Program Flow:** Prompts the user for inputs, validates them, and initiates the booking process.
+
+## Example Workflow:
+
+    Welcome to PVR Cinemas
+
+    Available Movies: Joker 2, Venom 3, Bhool Bhulaiyaa 3, Singham Again
+
+    Show Timings:
+      Input 'Morning' for 9:00 A.M. Show
+      Input 'Afternoon' for 1:00 P.M. Show
+      Input 'Evening' for 5:00 P.M. Show
+      Input 'Night' for 9:00 P.M. Show
+
+    Enter Your Movie Choice: Joker 2
+    Enter Your Show Timing: Evening
+    Enter the number of tickets: 3
+
+    BOOKING CONFIRMED! You have booked 3 tickets for 'Joker 2' at 5:00 P.M.
+    Your confirmed seats are in AUDI 7, Seat Numbers: D12, D13, D14
+
+    Total price including taxes: ₹993
+    Booking ID: X8H2J9K3
+
+    
 
 
-
-
-Main Program Flow:
-
-Prompts the user for inputs, validates them, and initiates the booking process.
-Example Workflow
-text
-Copy code
-Welcome to PVR Cinemas
-
-Available Movies: Joker 2, Venom 3, Bhool Bhulaiyaa 3, Singham Again
-
-Show Timings:
-  Input 'Morning' for 9:00 A.M. Show
-  Input 'Afternoon' for 1:00 P.M. Show
-  Input 'Evening' for 5:00 P.M. Show
-  Input 'Night' for 9:00 P.M. Show
-
-Enter Your Movie Choice: Joker 2
-Enter Your Show Timing: Evening
-Enter the number of tickets: 3
-
-BOOKING CONFIRMED! You have booked 3 tickets for 'Joker 2' at 5:00 P.M.
-Your confirmed seats are in AUDI 7, Seat Numbers: D12, D13, D14
-
-Total price including taxes: ₹993
-Booking ID: X8H2J9K3
 Dependencies
 No external libraries are required; only Python's standard library is used:
 
