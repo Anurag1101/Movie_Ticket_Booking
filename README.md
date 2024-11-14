@@ -53,12 +53,13 @@ Upon running the script, users will be prompted to enter the following details:
    - **Bhool Bhulaiyaa 3**
    - **Singham Again**
 
-Show Time: Enter one of the following time slots:
+2. **Show Time:**  Enter one of the following time slots:
+   - **Morning (9:00 A.M.)**
+   - **Afternoon (1:00 P.M.)**
+   - **Evening (5:00 P.M.)**
+   - **Night (9:00 P.M.)**
 
-Morning (9:00 A.M.)
-Afternoon (1:00 P.M.)
-Evening (5:00 P.M.)
-Night (9:00 P.M.)
+
 Number of Tickets: Enter a number between 1 and 20.
 
 Based on the inputs, the application will:
