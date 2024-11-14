@@ -30,21 +30,21 @@ Welcome to the **Movie Ticket Booking System!** This `Python` application allows
 - **Booking ID Generation:**  Generates a unique booking ID for each transaction.
 - **Input Validation:**  Ensures correct movie selection, show time, and ticket quantity.
 
-Getting Started
+## Getting Started:
+
 To use this project:
 
-Clone the Repository:
+### Clone the Repository:
 
-bash
-Copy code
-git clone https://github.com/yourusername/Movie_Ticket_Booking.git
-cd Movie_Ticket_Booking
-Run the Script: Execute the movie_ticket_booking.py file in your terminal:
+    git clone https://github.com/yourusername/Movie_Ticket_Booking.git
+    cd Movie_Ticket_Booking
 
-bash
-Copy code
-python movie_ticket_booking.py
-Usage
+### Run the Script: Execute the movie_ticket_booking.py file in your terminal:
+
+    python movie_ticket_booking.py
+
+## Usage:
+
 Upon running the script, users will be prompted to enter the following details:
 
 Movie Choice: Choose from the available movies:
