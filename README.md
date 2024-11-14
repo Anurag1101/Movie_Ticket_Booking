@@ -1,6 +1,7 @@
 # Movie Ticket Booking System
 
-Welcome to the Movie Ticket Booking System! This Python application allows users to book movie tickets at PVR Cinemas by choosing a movie, selecting a show time, and specifying the number of tickets. The application provides a simple, interactive booking experience with seat allocation, fare calculation, and booking confirmation.
+Welcome to the **Movie Ticket Booking System!** This `Python` application allows users to book movie tickets at `PVR` Cinemas by choosing a movie, selecting a show time, and specifying the number of tickets. The application provides a simple, interactive booking experience with seat allocation, fare calculation, and booking confirmation.
+
 
 Table of Contents
 Features
